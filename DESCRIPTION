@@ -1,0 +1,15 @@
+Package: edm1
+Title: Functions to perform new set operation on vectors and others functions bringing new features for base sets functions
+Version: 2.0.0.0
+Authors@R: 
+    person("Julien", "Larget-Piet", , "julien.larget-piet@dreamRs.fr", role = c("aut", "cre"))
+Description: Provides functions to perform union and intersect operation on n vectors, to see the differences in term of elements between n vectors and to perform union operation keeping the number of original unique elements in the first vector...  
+License: GPL (==3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Imports:
+    stringr,
+    stringi,
+    dplyr,
+    openxlsx
